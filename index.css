@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(nature.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24%;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container div {
+  background: red;
+  margin: 20px;
+  border-radius: 5px 5px;
+}
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+p {
+  background-color: blue;
+  padding: 5px;
+}
+#ampm {
+  width: 10px;
+  height: 10px;
+  margin-top: -10px;
+}
